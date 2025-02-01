@@ -1,9 +1,6 @@
 'use client'
-import { ModeToggle } from '@/components/ui/mode-toggle'
 import { Book, Headphones, Search } from 'lucide-react'
-import Templates from '../icons/cloud_download'
 import { Input } from '@/components/ui/input'
-
 import {
   Tooltip,
   TooltipContent,
@@ -45,7 +42,7 @@ const InfoBar = (props: Props) => {
           </TooltipContent>
         </Tooltip>
       </TooltipProvider>
-      {/* <UserButton /> */}
+      <UserButton />
     </div>
   )
 }
